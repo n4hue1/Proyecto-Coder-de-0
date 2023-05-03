@@ -211,6 +211,7 @@ body{
     padding-top: 40px;
     background-color: #333 !important;
     margin-right: 0;
+
 }
 
 .botonPedirAqui{
@@ -230,4 +231,35 @@ body{
     background-color: rgb(117, 80, 15);
     border: black solid 3px;
     margin: 10px;
+}
+/* fin pedir aqui */
+/* inicio novedades */
+
+.fondoNovedades{
+    background-image: url(./imgs/burger-8-2707320_1920.jpg);
+    opacity: 5;
+    background-position: center;
+    background-size: cover;
+    height: 750px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.contNovedades1{
+    color: black;
+    height: 300px;
+    width: 400px;
+    text-shadow: 0,5px 0,5px black;
+    background-color:rgba(170, 114, 23, 0.608);
+    border-radius: 20px;
+    border: black solid 2px;
+    text-align: center;
+}
+
+.btn{
+    color: aliceblue;
+    background-color:rgb(117, 80, 15);
+    border: white solid 2px;
+    text-align: center;
 }

@@ -1,24 +1,106 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../imgs/hamburger-576419.svg" type="image/x-icon">
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="../estilos.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>SmashB</title>
 </head>
+
 <body>
+    <!-- comienza header -->
+    <nav class="navbar navbar-expand-md  navbar-dark fluid-conteiner">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#"><strong><span>S</span>mash<span>B</span></strong></a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./pediraqui.html">Pedir Aqui</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./novedades.html">Novedades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./productos.html">Productos</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="./contactos.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- fin header -->
+    <!-- inicia novedades main -->
+    <div class="fondoNovedades conteiner-fluid row">
+        <div class="contNovedades1 col-xs-12 col-sm-12 col-md-6">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, libero ea iste numquam temporibus illo, voluptatibus recusandae dicta veritatis qui alias accusamus, dolore quaerat tempora quas necessitatibus odio fugit. Modi nesciunt sit ad ducimus quaerat sint reprehenderit est deserunt? Porro facere consectetur perspiciatis neque magnam deserunt, esse quam numquam fugit tempora reprehenderit nam corrupti, molestias temporibus nemo tempore unde quidem.</p>
+            <button type="button" class="btn btn-default">Saber mas</button>
+        </div>
+        <div class="vacio col-xs-0 col-sm-0 col-md-6"></div>
+        <div class="vacio col-xs-0 col-sm-0 col-md-6"></div>
+        <div class="contNovedades1 col-xs-12 col-sm-12 col-md-6">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam amet, molestiae odio rerum, suscipit perferendis cumque doloremque nobis itaque aut animi reiciendis neque architecto nemo expedita est? Doloremque saepe odio consequatur necessitatibus nostrum adipisci quidem qui architecto, consequuntur ex provident quod expedita reprehenderit laborum quisquam est quas sint repellat assumenda tempore ad voluptate doloribus itaque. Eligendi aspernatur provident inventore consectetur.</p>
+            <button type="button" class="btn btn-default">Ir a ...</button>
+        </div>
+    </div>
+
+    <!-- fin main -->
+    <!-- comienza footer -->
+    <footer class="footer conteiner-fluid row">
+        <a class="logofooter col-md-3 col-sm-12 col-xs-12"
+            href="#"><strong><span>S</span>mash<span>B</span></strong></a>
+        <ul class="col-md-2 col-sm-12">
+            <li><a href="./productos.html">Productos</a></li>
+            <li><a href="./contactos.html">Contactos</a></li>
+        </ul>
+
+        <div class="redes col-md-1 col-sm-2 col-xs-2"><a href=""></a><i class="fa-brands fa-twitter"></i></div>
+        <div class="redes col-md-1 col-sm-2 col-xs-2"><a href="#"></a><i class="fa-brands fa-facebook"></i></div>
+        <div class="redes col-md-1 col-sm-2 col-xs-2"><a href=""></a><i class="fa-brands fa-instagram"></i></div>
+        <div class="footerMap col-md-3 col-sm-6 col-xs-6"><iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d939.0833584577973!2d-56.62103316971998!3d-34.637184830330135!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a19444c4aad58b%3A0xf18a8da122ac39f6!2sRedpagos%20Libertad!5e0!3m2!1ses-419!2suy!4v1682017535731!5m2!1ses-419!2suy"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
+
+    </footer>
 
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
-    
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous">
+    </script>
+
 </body>
+
 </html>
