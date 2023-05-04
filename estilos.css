@@ -263,3 +263,117 @@ body{
     border: white solid 2px;
     text-align: center;
 }
+/* fin novedades */
+/* inicio productos */
+
+.productos{
+    background-color: rgb(117, 80, 15);
+    min-height: 750px;
+    height: fit-content;
+    width: auto;
+}
+
+.tituloProductos{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 20px;
+    text-align: center;
+    background-color: rgb(117, 80, 15);
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.contProd{
+    height: 150px;
+    width: 280px;
+    background-color: #333;
+    border: black solid 2px;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.imgProd1{
+    background-image: url(./imgs/burger-1-6108495_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.imgProd2{
+    background-image: url(./imgs/burger-1-6108495_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.imgProd3{
+    background-image: url(./imgs/burger-1-6108495_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.imgProd4{
+    background-image: url(./imgs/burger-1-6108495_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.imgProd5{
+    background-image: url(./imgs/burger-1-6108495_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.imgProd6{
+    background-image: url(./imgs/burger-1-6108495_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.imgProd7{
+    background-image: url(./imgs/burger-1-6108495_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.imgProd8{
+    background-image: url(./imgs/burger-1-6108495_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.imgProd9{
+    background-image: url(./imgs/burger-1-6108495_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.descProductos{
+    color: lightslategray;
+}
